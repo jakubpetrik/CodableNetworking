@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CodableNetworking_Example' do
+  pod 'CodableNetworking', :path => '../'
+
+  target 'CodableNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
