@@ -1,0 +1,31 @@
+PODS:
+  - CodableNetworking (0.1.0):
+    - PromiseKit (~> 6.8)
+  - PromiseKit (6.8.4):
+    - PromiseKit/CorePromise (= 6.8.4)
+    - PromiseKit/Foundation (= 6.8.4)
+    - PromiseKit/UIKit (= 6.8.4)
+  - PromiseKit/CorePromise (6.8.4)
+  - PromiseKit/Foundation (6.8.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.4):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - CodableNetworking (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PromiseKit
+
+EXTERNAL SOURCES:
+  CodableNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CodableNetworking: f60be9f98d0e7988c545d0bf7bd752082141f6b3
+  PromiseKit: 51794a832647e7b819336dc2279039ce9f1cc49b
+
+PODFILE CHECKSUM: 284ff5561383f1cda9e2d454fc1a1b48814fc6e6
+
+COCOAPODS: 1.7.0.beta.3

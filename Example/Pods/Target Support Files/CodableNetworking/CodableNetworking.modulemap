@@ -1,0 +1,6 @@
+framework module CodableNetworking {
+  umbrella header "CodableNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'CodableNetworking'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CodableNetworking.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Simple networking abstraction layer'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  This pod is a derivative of delightful CodableStore library. It drops support for UserDefaults and focuses only on networking. It enables URLSession configuration if needed.
+  DESC
 
   s.homepage         = 'https://github.com/jakup@me.com/CodableNetworking'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jakup@me.com' => 'jakub.petrik@automatic.com' }
-  s.source           = { :git => 'https://github.com/jakup@me.com/CodableNetworking.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Jakub Petrík' => 'https://github.com/jakubpetrik' }
+  s.source           = { :git => 'https://github.com/jakubpetrik/CodableNetworking.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/odpadnem'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '11.4'
+  s.swift_version = '5.0'
   s.source_files = 'CodableNetworking/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CodableNetworking' => ['CodableNetworking/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'PromiseKit', '~> 6.8'
 end

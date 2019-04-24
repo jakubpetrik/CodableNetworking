@@ -1,0 +1,6 @@
+framework module Pods_CodableNetworking_Tests {
+  umbrella header "Pods-CodableNetworking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
