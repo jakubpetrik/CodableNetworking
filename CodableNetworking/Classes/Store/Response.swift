@@ -1,9 +1,4 @@
-//
-//  Response.swift
-//  CodableNetworking
-//
-//  Created by Jakub Petrík on 4/19/19.
-//
+//  Copyright © 2019 Jakub Petrík. All rights reserved.
 
 import Foundation
 

@@ -1,9 +1,4 @@
-//
-//  Provider.swift
-//  CodableNetworking
-//
-//  Created by Jakub Petrík on 4/19/19.
-//
+//  Copyright © 2018 Jakub Knejzlik. All rights reserved.
 
 import Foundation
 
