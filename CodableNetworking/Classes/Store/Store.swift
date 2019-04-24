@@ -9,7 +9,7 @@ public class CodableStore<E: Environment> {
     public var loggingFn: LoggingFunction? = nil
     public let session: URLSession
 
-    public init(loggingFn: LoggingFunction? = nil, session: URLSession = .shared) {
+    public init(session: URLSession = .shared) {
         self.session = session
         #if DEBUG
         self.loggingFn = { (items: Any...) in

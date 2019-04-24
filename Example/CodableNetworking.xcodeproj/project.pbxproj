@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		61CFCAC56AC4D4D4D5820A4E /* Pods_CodableNetworking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93F9B4252A8D93D08588343 /* Pods_CodableNetworking_Tests.framework */; };
 		A23F1131AB268743FB5BA1EC /* Pods_CodableNetworking_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0791164904437241EFB514 /* Pods_CodableNetworking_Example.framework */; };
+		CD39597C22708A5A00AC46EC /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD39597A22706F0C00AC46EC /* APIEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		838EABFFEB044E307689D83D /* CodableNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CodableNetworking.podspec; path = ../CodableNetworking.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5BEA848F0E30CCEFED59B5 /* Pods-CodableNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodableNetworking_Example.debug.xcconfig"; path = "Target Support Files/Pods-CodableNetworking_Example/Pods-CodableNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ADE1370F69EA1FAE6ED9A2EA /* Pods-CodableNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodableNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CodableNetworking_Tests/Pods-CodableNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD39597A22706F0C00AC46EC /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
 		D93F9B4252A8D93D08588343 /* Pods_CodableNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodableNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0791164904437241EFB514 /* Pods_CodableNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodableNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -126,6 +128,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				CD39597A22706F0C00AC46EC /* APIEnvironment.swift */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD39597C22708A5A00AC46EC /* APIEnvironment.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
