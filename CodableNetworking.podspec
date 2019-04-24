@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   This pod is a derivative of delightful CodableStore library. It drops support for UserDefaults and focuses only on networking. It enables URLSession configuration if needed.
   DESC
 
-  s.homepage         = 'https://github.com/jakup@me.com/CodableNetworking'
+  s.homepage         = 'https://github.com/jakubpetrik/CodableNetworking'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jakub Petrík' => 'https://github.com/jakubpetrik' }
   s.source           = { :git => 'https://github.com/jakubpetrik/CodableNetworking.git', :tag => s.version.to_s }
