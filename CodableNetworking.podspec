@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CodableNetworking'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Simple networking abstraction layer'
 
   s.description      = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/jakubpetrik/CodableNetworking.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/odpadnem'
 
-  s.ios.deployment_target = '11.4'
+  s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
   s.source_files = 'CodableNetworking/Classes/**/*'
   s.dependency 'PromiseKit', '~> 6.8'
