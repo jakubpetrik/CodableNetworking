@@ -1,6 +1,5 @@
 # CodableNetworking
 
-[![CI Status](https://img.shields.io/travis/jakup@me.com/CodableNetworking.svg?style=flat)](https://travis-ci.org/jakup@me.com/CodableNetworking)
 [![Version](https://img.shields.io/cocoapods/v/CodableNetworking.svg?style=flat)](https://cocoapods.org/pods/CodableNetworking)
 [![License](https://img.shields.io/cocoapods/l/CodableNetworking.svg?style=flat)](https://cocoapods.org/pods/CodableNetworking)
 [![Platform](https://img.shields.io/cocoapods/p/CodableNetworking.svg?style=flat)](https://cocoapods.org/pods/CodableNetworking)
@@ -17,10 +16,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'CodableNetworking'
 ```
-
-## Author
-
-[Jakub Petrík](https://github.com/jakubpetrik)
 
 ## License
 

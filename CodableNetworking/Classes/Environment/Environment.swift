@@ -30,7 +30,6 @@ extension Environment {
     }
 
     public static func providerRequest<T: Decodable>(_ endpoint: Endpoint<T>) -> URLRequest {
-        let source = baseURL.appendingPathComponent(endpoint.path)
-        return endpoint.getRequest(url: source)
+        return endpoint.getRequest(url: baseURL)
     }
 }
