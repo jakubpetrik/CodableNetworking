@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CodableNetworking'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Simple networking abstraction layer'
 
   s.description      = <<-DESC

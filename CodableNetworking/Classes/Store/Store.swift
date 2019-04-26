@@ -38,4 +38,9 @@ public class CodableStore<E: Environment> {
         let request = self.request(endpoint)
         request.send(in: session, handler: completion)
     }
+
+    public func send<T: Decodable>(_ endpoint: Endpoint<T>, sessionOverride: URLSession, completion: @escaping (Result<T, Error>) -> Void) {
+        let request = self.request(endpoint)
+        request.send(in: sessionOverride, handler: completion)
+    }
 }
